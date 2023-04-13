@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(./img/image.svg);
+  
+
+}
+
+header{
+    background-image: url(./img/logo.svg);
+    background-repeat: no-repeat;
+    width: 86.75rem;
+    height: 15.68rem;
+    margin: 1.25rem;
+    padding: 3.125rem;
+    
+}   
+
+
+
+aside{ 
+    width: 90%;
+    height: auto;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    position: absolute;
+    justify-content: right;
+    align-items:  right;
+    flex-direction: right;
+    top: 5.9375rem;
+
+}
+
+
+main{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+    top: 9.375rem;
+    margin: 3.125rem;
+    padding: 5.625rem;
+}
+
+h1{
+    color:#FFFFFF;
+    font-size: 3.75rem;
+    
+}
+p{
+    color:#7473D0;
+    font-size: 1.125rem;
+}
+
+.input-group input{
+    width: 100%;
+    height: 3.125rem;
+    padding-left: 1.25rem;
+    margin-top: 0.75rem;
+    border-radius: 0.625rem;
+    border-color: #7473D0;
+    border-style:  solid;
+    border-width: 0.0625rem;
+    font-size: 1rem;
+    background-color: #201D47;
+    color:#B1AFCD;
+}
+
+
+.cadastro button{
+    width: 100%;
+    height: 3.75rem;
+    padding-left: 0.75rem;
+    margin-top: 1.5rem;
+    border-radius: 0.625rem;
+    color: black;
+    background-color:  #42E8E0;
+    border-color:  #201D47;
+    border-style:  solid;
+    border-width: 0.0625rem;
+    font-size: 1rem;
+}
